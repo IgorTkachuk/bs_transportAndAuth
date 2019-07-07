@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script src="race.js"></script>
+    <title>Keyboard Race</title>
+  </head>
+  <body>
+    <p>The track:</p>
+    <div class="track"></div>
+    <p>Enter the text:</p>
+    <textarea name="" id="engine" cols="100" rows="10" disabled></textarea>
+    <br /><br />Score:
+    <ul class="score"></ul>
+    <div class="timeBeforeRace"></div>
+    <div class="timeRaceInProgress"></div>
+    <br />
+    <!-- <input type="button" value="Restart the game" id="restart" disabled /> -->
+  </body>
+</html>
