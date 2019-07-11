@@ -16,7 +16,6 @@ window.onload = () => {
       })
     }).then(res => {
       res.json().then(body => {
-        console.log(body);
         if(body.auth) {
           localStorage.setItem('jwt', body.token);
           location.replace('/race');
